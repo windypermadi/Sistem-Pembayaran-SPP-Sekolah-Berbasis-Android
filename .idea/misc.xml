@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/AndiPublisher01/Videos/Aplikasi Pembayaran Sekolah/app/src/main/res/layout/activity_approval.xml" value="0.1082427536231884" />
+        <entry key="..\:/Users/AndiPublisher01/Videos/Aplikasi Pembayaran Sekolah/app/src/main/res/layout/activity_detail_approval.xml" value="0.13" />
+        <entry key="..\:/Users/AndiPublisher01/Videos/Aplikasi Pembayaran Sekolah/app/src/main/res/layout/activity_profil.xml" value="0.22" />
+        <entry key="..\:/Users/AndiPublisher01/Videos/Aplikasi Pembayaran Sekolah/app/src/main/res/layout/activity_profil_kepala_sekolah.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/AndiPublisher01/Videos/Aplikasi Pembayaran Sekolah/app/src/main/res/layout/activity_rekapitulasi_admin.xml" value="0.22" />
+        <entry key="..\:/Users/AndiPublisher01/Videos/Aplikasi Pembayaran Sekolah/app/src/main/res/layout/activity_rekapitulasi_pembayaran.xml" value="0.15" />
+        <entry key="..\:/Users/AndiPublisher01/Videos/Aplikasi Pembayaran Sekolah/app/src/main/res/layout/activity_splash.xml" value="0.16" />
+        <entry key="..\:/Users/AndiPublisher01/Videos/Aplikasi Pembayaran Sekolah/app/src/main/res/layout/activity_tambah_periode.xml" value="0.22" />
+        <entry key="..\:/Users/AndiPublisher01/Videos/Aplikasi Pembayaran Sekolah/app/src/main/res/layout/activity_update_siswa.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/AndiPublisher01/Videos/Aplikasi Pembayaran Sekolah/app/src/main/res/layout/custom_dialog_list_bulan.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/AndiPublisher01/Videos/Aplikasi Pembayaran Sekolah/app/src/main/res/layout/model_list_siswa.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/AndiPublisher01/Videos/Aplikasi Pembayaran Sekolah/app/src/main/res/layout/model_list_transaksi.xml" value="0.16" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

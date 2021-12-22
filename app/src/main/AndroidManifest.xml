@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.windypermadi.aplikasipembayaransekolah">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AplikasiPembayaranSekolah"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".auth.ProfilKepalaSekolahActivity"
+            android:exported="true" />
+        <activity
+            android:name=".auth.SplashActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".admintransaksi.RekapitulasiAdminActivity"
+            android:exported="true" />
+        <activity
+            android:name=".admintransaksi.DetailApprovalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admintransaksi.ApprovalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admintransaksi.RekapitulasiPembayaranActivity"
+            android:exported="false" />
+        <activity
+            android:name=".transaksi.DetailTransaksi"
+            android:exported="true" />
+        <activity
+            android:name=".transaksi.TambahPembayaranTransaksiInvoice"
+            android:exported="false" />
+        <activity
+            android:name=".siswa.ListSemuaSiswaAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".akun.UpdateAkunActivity"
+            android:exported="false" />
+        <activity
+            android:name=".akun.ListAkunActivity"
+            android:exported="false" />
+        <activity
+            android:name=".transaksi.TambahPembayaranTransaksi"
+            android:exported="false" />
+        <activity
+            android:name=".periode.TambahPeriode"
+            android:exported="false" />
+        <activity
+            android:name=".periode.ListPeriodeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menu.MenuKepala"
+            android:exported="false" />
+        <activity
+            android:name=".transaksi.TransaksiPembayaran"
+            android:exported="false" />
+        <activity
+            android:name=".auth.InformasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".auth.ProfilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".siswa.ListSiswa"
+            android:exported="false" />
+        <activity
+            android:name=".kelas.UpdateKelas"
+            android:exported="false" />
+        <activity
+            android:name=".kelas.TambahKelas"
+            android:exported="false" />
+        <activity
+            android:name=".kelas.MainKelas"
+            android:exported="false" />
+        <activity
+            android:name=".siswa.UpdateSiswa"
+            android:exported="false" />
+        <activity
+            android:name=".siswa.TambahSiswa"
+            android:exported="false" />
+        <activity
+            android:name=".menu.MainSiswa"
+            android:exported="false" />
+        <activity
+            android:name=".menu.MainAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".auth.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".auth.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
