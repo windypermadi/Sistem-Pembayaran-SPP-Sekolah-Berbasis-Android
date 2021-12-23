@@ -47,7 +47,7 @@ public class TambahSiswa extends AppCompatActivity {
         }
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
         et_cari = findViewById(R.id.et_cari);
-        et_cari.setText("Tambah Kelas");
+        et_cari.setText("Tambah Siswa");
 
         et_nis = findViewById(R.id.et_nis);
         et_nama = findViewById(R.id.et_nama);

@@ -29,6 +29,7 @@ import com.androidnetworking.error.ANError;
 import com.androidnetworking.interfaces.JSONArrayRequestListener;
 import com.androidnetworking.interfaces.JSONObjectRequestListener;
 import com.windypermadi.aplikasipembayaransekolah.R;
+import com.windypermadi.aplikasipembayaransekolah.auth.ProfilActivity;
 import com.windypermadi.aplikasipembayaransekolah.helper.Connection;
 import com.windypermadi.aplikasipembayaransekolah.helper.utils.CekKoneksi;
 import com.windypermadi.aplikasipembayaransekolah.helper.utils.CustomDialog;
@@ -144,8 +145,8 @@ public class ListAkunActivity extends AppCompatActivity {
                         try {
                             for (int i = 0; i < response.length(); i++) {
                                 JSONObject responses = response.getJSONObject(i);
-                                com.windypermadi.aplikasipembayaransekolah.model.AkunModel bk = new AkunModel(
-                                        responses.getString("iduser"),
+                                AkunModel bk = new AkunModel(
+                                        responses.getString("idforeign"),
                                         responses.getString("username"),
                                         responses.getString("nama"),
                                         responses.getString("status_user"));
@@ -245,10 +246,10 @@ public class ListAkunActivity extends AppCompatActivity {
             holder.text_nama.setText(kelas.getNama());
             holder.text_username.setText(kelas.getUsername());
             holder.cv.setOnClickListener(v -> {
-//                Intent x = new Intent(mCtx, UpdateSiswa.class);
-//                x.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-//                x.putExtra("idsiswa", kelas.getIdsiswa());
-//                mCtx.startActivity(x);
+                Intent x = new Intent(mCtx, ProfilActivity.class);
+                x.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                x.putExtra("idsiswa", kelas.getIduser());
+                mCtx.startActivity(x);
             });
         }
 

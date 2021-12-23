@@ -19,11 +19,14 @@
         android:theme="@style/Theme.AplikasiPembayaranSekolah"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".auth.BioSiswaActivity"
+            android:exported="true" />
+        <activity
             android:name=".auth.ProfilKepalaSekolahActivity"
             android:exported="true" />
         <activity
             android:name=".auth.SplashActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".admintransaksi.RekapitulasiAdminActivity"
             android:exported="true" />

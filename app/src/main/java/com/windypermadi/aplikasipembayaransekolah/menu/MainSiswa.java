@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 import com.windypermadi.aplikasipembayaransekolah.R;
+import com.windypermadi.aplikasipembayaransekolah.auth.BioSiswaActivity;
 import com.windypermadi.aplikasipembayaransekolah.auth.InformasiActivity;
 import com.windypermadi.aplikasipembayaransekolah.auth.ProfilActivity;
 import com.windypermadi.aplikasipembayaransekolah.helper.SessionManager;
@@ -51,7 +52,7 @@ public class MainSiswa extends AppCompatActivity {
     private void ActionButton() {
         img_logout.setOnClickListener(v -> logoutUser());
         cv1.setOnClickListener(v -> {
-            Intent x = new Intent(MainSiswa.this, ProfilActivity.class);
+            Intent x = new Intent(MainSiswa.this, BioSiswaActivity.class);
             x.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             x.putExtra("idsiswa", iduser);
             startActivity(x);

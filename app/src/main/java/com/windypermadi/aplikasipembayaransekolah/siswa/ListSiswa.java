@@ -30,6 +30,7 @@ import com.androidnetworking.error.ANError;
 import com.androidnetworking.interfaces.JSONArrayRequestListener;
 import com.androidnetworking.interfaces.JSONObjectRequestListener;
 import com.windypermadi.aplikasipembayaransekolah.R;
+import com.windypermadi.aplikasipembayaransekolah.auth.BioSiswaActivity;
 import com.windypermadi.aplikasipembayaransekolah.auth.ProfilActivity;
 import com.windypermadi.aplikasipembayaransekolah.helper.Connection;
 import com.windypermadi.aplikasipembayaransekolah.helper.utils.CekKoneksi;
@@ -69,7 +70,7 @@ public class ListSiswa extends AppCompatActivity {
         }
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
         et_cari = findViewById(R.id.et_cari);
-        et_cari.setText("Daftar Kelas");
+        et_cari.setText("Daftar Siswa");
 
         Intent i = getIntent();
         idkelas = i.getStringExtra("idkelas");
@@ -251,7 +252,7 @@ public class ListSiswa extends AppCompatActivity {
             holder.text_nis.setText(kelas.getNis());
             holder.text_level.setText(kelas.getNama_kelas());
             holder.cv.setOnClickListener(v -> {
-                Intent x = new Intent(mCtx, ProfilActivity.class);
+                Intent x = new Intent(mCtx, BioSiswaActivity.class);
                 x.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 x.putExtra("idsiswa", kelas.getIdsiswa());
                 mCtx.startActivity(x);
