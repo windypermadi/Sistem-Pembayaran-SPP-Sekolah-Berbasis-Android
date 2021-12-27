@@ -104,7 +104,7 @@
                         android:layout_marginStart="10dp"
                         android:layout_toEndOf="@+id/img_upload"
                         app:boxStrokeColor="@color/black"
-                        android:hint="Nama Siswa"
+                        android:hint="Nama Kepala Sekolah"
                         android:textColorHint="@color/black"
                         tools:ignore="HardcodedText">
 

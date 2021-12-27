@@ -86,10 +86,6 @@ public class ListAkunActivity extends AppCompatActivity {
     }
 
     private void ActiomButton() {
-        findViewById(R.id.add).setOnClickListener(v -> {
-            Intent i = new Intent(ListAkunActivity.this, TambahSiswa.class);
-            startActivity(i);
-        });
         findViewById(R.id.back).setOnClickListener(v -> finish());
         text_search.setOnEditorActionListener((v, actionId, event) -> {
             if (actionId == EditorInfo.IME_ACTION_SEARCH) {

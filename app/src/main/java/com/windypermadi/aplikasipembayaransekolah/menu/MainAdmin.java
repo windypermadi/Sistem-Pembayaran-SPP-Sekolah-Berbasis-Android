@@ -10,6 +10,7 @@ import android.os.Bundle;
 
 import com.windypermadi.aplikasipembayaransekolah.R;
 import com.windypermadi.aplikasipembayaransekolah.admintransaksi.ApprovalActivity;
+import com.windypermadi.aplikasipembayaransekolah.admintransaksi.RekapitulasiAdminActivity;
 import com.windypermadi.aplikasipembayaransekolah.admintransaksi.RekapitulasiPembayaranActivity;
 import com.windypermadi.aplikasipembayaransekolah.akun.ListAkunActivity;
 import com.windypermadi.aplikasipembayaransekolah.helper.SessionManager;
@@ -62,6 +63,7 @@ public class MainAdmin extends AppCompatActivity {
         cv3.setOnClickListener(v -> startActivity(new Intent(MainAdmin.this, ApprovalActivity.class)));
         cv4.setOnClickListener(v -> startActivity(new Intent(MainAdmin.this, ListAkunActivity.class)));
         cv5.setOnClickListener(v -> startActivity(new Intent(MainAdmin.this, ListPeriodeActivity.class)));
+        findViewById(R.id.cv6).setOnClickListener(v -> startActivity(new Intent(MainAdmin.this, RekapitulasiAdminActivity.class)));
     }
 
     private void logoutUser() {
