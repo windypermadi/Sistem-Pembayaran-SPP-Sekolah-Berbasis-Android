@@ -19,6 +19,9 @@
         android:theme="@style/Theme.AplikasiPembayaranSekolah"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".transaksi.TambahPembayaranTransaksiFirebase"
+            android:exported="true" />
+        <activity
             android:name=".auth.BioSiswaActivity"
             android:exported="true" />
         <activity

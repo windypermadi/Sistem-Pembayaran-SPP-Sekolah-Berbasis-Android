@@ -7,6 +7,7 @@
         <entry key="..\:/Users/AndiPublisher01/Videos/Aplikasi Pembayaran Sekolah/app/src/main/res/layout/activity_bio_siswa.xml" value="0.2" />
         <entry key="..\:/Users/AndiPublisher01/Videos/Aplikasi Pembayaran Sekolah/app/src/main/res/layout/activity_detail_approval.xml" value="0.13" />
         <entry key="..\:/Users/AndiPublisher01/Videos/Aplikasi Pembayaran Sekolah/app/src/main/res/layout/activity_list_akun.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/AndiPublisher01/Videos/Aplikasi Pembayaran Sekolah/app/src/main/res/layout/activity_list_semua_siswa_admin.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/AndiPublisher01/Videos/Aplikasi Pembayaran Sekolah/app/src/main/res/layout/activity_main_admin.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/AndiPublisher01/Videos/Aplikasi Pembayaran Sekolah/app/src/main/res/layout/activity_menu_kepala.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/AndiPublisher01/Videos/Aplikasi Pembayaran Sekolah/app/src/main/res/layout/activity_profil.xml" value="0.2" />
@@ -14,7 +15,11 @@
         <entry key="..\:/Users/AndiPublisher01/Videos/Aplikasi Pembayaran Sekolah/app/src/main/res/layout/activity_rekapitulasi_admin.xml" value="0.22" />
         <entry key="..\:/Users/AndiPublisher01/Videos/Aplikasi Pembayaran Sekolah/app/src/main/res/layout/activity_rekapitulasi_pembayaran.xml" value="0.15" />
         <entry key="..\:/Users/AndiPublisher01/Videos/Aplikasi Pembayaran Sekolah/app/src/main/res/layout/activity_splash.xml" value="0.16" />
+        <entry key="..\:/Users/AndiPublisher01/Videos/Aplikasi Pembayaran Sekolah/app/src/main/res/layout/activity_tambah_pembayaran_transaksi.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/AndiPublisher01/Videos/Aplikasi Pembayaran Sekolah/app/src/main/res/layout/activity_tambah_pembayaran_transaksi_firebase.xml" value="0.2" />
+        <entry key="..\:/Users/AndiPublisher01/Videos/Aplikasi Pembayaran Sekolah/app/src/main/res/layout/activity_tambah_pembayaran_transaksi_invoice.xml" value="0.18645833333333334" />
         <entry key="..\:/Users/AndiPublisher01/Videos/Aplikasi Pembayaran Sekolah/app/src/main/res/layout/activity_tambah_periode.xml" value="0.22" />
+        <entry key="..\:/Users/AndiPublisher01/Videos/Aplikasi Pembayaran Sekolah/app/src/main/res/layout/activity_transaksi_pembayaran.xml" value="0.18645833333333334" />
         <entry key="..\:/Users/AndiPublisher01/Videos/Aplikasi Pembayaran Sekolah/app/src/main/res/layout/activity_update_siswa.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/AndiPublisher01/Videos/Aplikasi Pembayaran Sekolah/app/src/main/res/layout/custom_dialog_list_bulan.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/AndiPublisher01/Videos/Aplikasi Pembayaran Sekolah/app/src/main/res/layout/model_list_siswa.xml" value="0.20416666666666666" />

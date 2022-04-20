@@ -28,6 +28,8 @@ import com.androidnetworking.AndroidNetworking;
 import com.androidnetworking.common.Priority;
 import com.androidnetworking.error.ANError;
 import com.androidnetworking.interfaces.JSONObjectRequestListener;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
 import com.windypermadi.aplikasipembayaransekolah.R;
 import com.windypermadi.aplikasipembayaransekolah.helper.Connection;
 import com.windypermadi.aplikasipembayaransekolah.helper.utils.CekKoneksi;
@@ -61,6 +63,9 @@ public class TambahPembayaranTransaksiInvoice extends AppCompatActivity {
     public final int SELECT_FILE = 1;
     private static final int PERMISSION_REQUEST_CODE = 100;
 
+    //Deklarasi Variable StorageReference
+    private StorageReference reference;
+
     public TambahPembayaranTransaksiInvoice() {
     }
 
@@ -82,6 +87,9 @@ public class TambahPembayaranTransaksiInvoice extends AppCompatActivity {
         text_total = findViewById(R.id.text_total);
         img_upload = findViewById(R.id.img_upload);
         btn_upload = findViewById(R.id.btn_upload);
+
+        //Mendapatkan Referensi dari Firebase Storage
+        reference = FirebaseStorage.getInstance().getReference();
 
         btn_upload.setOnClickListener(view -> {
             if (checkPermission()) {
